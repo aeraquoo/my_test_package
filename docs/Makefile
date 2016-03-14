@@ -54,7 +54,7 @@ clean:
 .PHONY: apidoc
 apidoc:
 	echo Running apidoc..
-	sphinx-apidoc -o source ../my_test_package
+	sphinx-apidoc -f -o source ../my_test_package
 	echo done.
 
 .PHONY: html

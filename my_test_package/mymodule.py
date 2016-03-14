@@ -1,3 +1,5 @@
+"""A simple module with trivial functions"""
+
 def multiply(a, b):
     """Multiply two numbers, a and b
 

@@ -1,13 +1,6 @@
 my_test_package package
 =======================
 
-Subpackages
------------
-
-.. toctree::
-
-    my_test_package.tests
-
 Submodules
 ----------
 
