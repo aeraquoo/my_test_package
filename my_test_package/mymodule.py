@@ -27,10 +27,23 @@ def multiplication_table(n):
     return(table.strip())
 
 def print_multiplication_table(n):
+    """Prints a multiplcation table
+
+    :param n: the number to mulpiply by
+    :type n: int
+    """
     print(multiplication_table(n))
 
 def print_twelve_times():
+    """Prints the 12 times tables"""
     print_multiplication_table(12)
 
 def add(a, b):
+    """Adds two numbers
+
+    :param a: number
+    :param b: other number
+    :type a: int,float,...
+    :type b: int,float,...
+    """
     return(a+b)
