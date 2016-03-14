@@ -15,3 +15,5 @@ class TestMyModule():
 4 times 3 is 12
 4 times 4 is 16"""
         assert_equals(multiplication_table(4), table)
+    def test_add(self):
+        assert_equals(add(2,3), 5)

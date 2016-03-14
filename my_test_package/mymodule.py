@@ -12,3 +12,6 @@ def print_multiplication_table(n):
 
 def print_twelve_times():
     print_multiplication_table(12)
+
+def add(a, b):
+    return(a+b)
