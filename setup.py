@@ -5,7 +5,7 @@ def read_file(fname):
         return f.read()
 
 setup(name='my_test_package',
-      version='0.1.0',
+      version='0.1.1',
       description='A simple test program to investigate packaging and PyPI',
       long_description = read_file('README.rst'),
       author='Jaye Heffernan',
