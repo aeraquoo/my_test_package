@@ -12,6 +12,13 @@ def multiply(a, b):
     :type b: int,float,...
     :return: a times b
     :rtype: int,float,...
+
+    >>> multiply(5, 5)
+    25
+    >>> multiply(0.2,10)
+    2.0
+    >>> multiply(2,2)
+    9999
     """
     return(a*b)
 
