@@ -5,7 +5,7 @@ def read_file(fname):
         return f.read()
 
 setup(name='my_test_package',
-      version='0.0.0',
+      version='0.1.0',
       description='A simple test program to investigate packaging and PyPI',
       long_description = read_file('README.rst'),
       author='Jaye Heffernan',
@@ -22,6 +22,7 @@ setup(name='my_test_package',
           ],
       entry_points = {
           "console_scripts": [
+              "print_twelve_times=my_test_package.mymodule:print_twelve_times"
               ]
           },
       zip_safe=False)
