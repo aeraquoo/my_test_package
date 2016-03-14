@@ -9,3 +9,6 @@
 
 # Swap files:
 *.swp
+
+# Tox internals
+.tox
