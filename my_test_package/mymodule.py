@@ -17,8 +17,6 @@ def multiply(a, b):
     25
     >>> multiply(0.2,10)
     2.0
-    >>> multiply(2,2)
-    9999
     """
     return(a*b)
 
@@ -54,5 +52,12 @@ def add(a, b):
     :param b: other number
     :type a: int,float,...
     :type b: int,float,...
+
+    >>> add(1,2)
+    3
+    >>> add(0, 0)
+    0
+    >>> add(0.3, 0.7)
+    1.0
     """
     return(a+b)
