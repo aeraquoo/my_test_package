@@ -12,3 +12,6 @@
 
 # Tox internals
 .tox
+
+# Doc builds
+docs/build

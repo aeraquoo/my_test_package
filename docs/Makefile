@@ -51,8 +51,14 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+.PHONY: apidoc
+apidoc:
+	echo Running apidoc..
+	sphinx-apidoc -o source ../my_test_package
+	echo done.
+
 .PHONY: html
-html:
+html: apidoc
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
